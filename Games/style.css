@@ -1,0 +1,53 @@
+*{
+    color: white;
+}
+h1{
+    background-color: black;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+.choice {
+    width: 165px;
+    height: 165px;
+    object-fit: cover; /* Ensure image fills circle without distortion */
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    border: solid black;
+}
+
+p{
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.score-board{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    gap:2rem;
+    background-color: black;
+    
+}
+.message_container{
+    justify-content: center;
+    background-color: black;
+}
+
+
